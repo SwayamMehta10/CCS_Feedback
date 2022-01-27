@@ -1,6 +1,6 @@
 html {
-    font-family: "Montserrat";
-    list-style: none;
+  font-family: "Montserrat";
+  list-style: none;
 }
 
 body{
@@ -11,38 +11,38 @@ body{
 }
   
 .colour1 {
-    background-color: #202020;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 30px;
+  background-color: #202020;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .colour2{
-    background-color: #333; 
-    color:  #fff !important;
-    border-radius: 24px;
-    padding-bottom: 15px;
-    text-align: justify;
-    margin: 4% 0;
+  background-color: #333; 
+  color:  #fff !important;
+  border-radius: 24px;
+  padding-bottom: 15px;
+  text-align: justify;
+  margin: 4% 0;
 }
 
 p {
-    font-size: 1.0em;
+  font-size: 1.0em;
 }
 
 .form-heading {
-    text-align: center;
-    font-weight: 700;
-    padding-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 15px;
 }
 
 .form-sub-heading {
-    text-align: center;
+  text-align: center;
 }
   
 .logo {
-    height: 50px;
-    margin: 35px 35px 0px 35px;;
+  height: 50px;
+  margin: 35px 35px 0px 35px;;
 }
 
 .logo4 {
@@ -60,11 +60,18 @@ p {
     width: 20px;
     height: 20px;
   }
+  form {
+    width: 75%;
+    margin: auto;
+  }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-form { max-width:420px; margin:50px auto; }
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
 
 .feedback-input {
   color:white;
@@ -83,11 +90,9 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-::placeholder {
-  color: #faa41a;
+.feedback-input:focus {
+  border: 2px solid #faa41a;
 }
-
-.feedback-input:focus { border: 2px solid #faa41a; }
 
 textarea {
   height: 150px;
@@ -111,7 +116,9 @@ textarea {
   font-weight:700;
 }
 
-[type="submit"]:hover { background:#faa41a; }
+[type="submit"]:hover {
+  background:#faa41a;
+}
 
 p, label {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
